@@ -130,6 +130,11 @@ body
 {
     color: #fff !important;
 }
+.container
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
 #rocdate
 {
     text-align: right;
@@ -161,12 +166,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 {
     list-style-type: none;
 }
-.first-column {
-    width: 80%;
-    float: left;
+tbody
+{
+    display: table;
+    border-collapse: collapse;
+    margin: 0px;
+    width: 100%;
 }
-
-.second-column {
-    width: 20%;
-    float: right;
+.post table
+{
+    width: 100%;
+    display: block;
+    border-collapse: collapse;
+    margin: 0px;
 }
