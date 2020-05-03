@@ -23,19 +23,22 @@ body
 .user-box img
 {
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
     border: 1px solid black
 }
 .user-box h1
 {
     color: #fff;
     left: 50%;
+    text-align: center;
     font-weight: bold;
 }
 .user-box p
 {
     left: 50%;
+    top: -10%;
+    font-size: large;
     color: #fff;
     text-align: center;
 }
@@ -92,9 +95,9 @@ body
 {
     height: 500px;
     border-radius: 5%;
-    border: 2px solid #000;
+    border: 1px solid #000;
 }
-.col-md-6 ul
+.row ul
 {
     columns: 2;
 }
@@ -105,7 +108,65 @@ body
     z-index: 2;
 
 }
-.nav-bar
+.navbar
 {
     background-color: #000
+}
+.nav-bar .fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+.navbar-nav
+{
+    float: right;
+    text-align: right;
+}
+.nav-link
+{
+    color: #fff !important;
+}
+#rocdate
+{
+    text-align: right;
+
+}
+.post h5
+{
+    font-size: 50px;
+}
+.post ul
+{
+    columns: 1;
+}
+.post 
+{
+    border-left: 0;
+    border-right: 0;
+    width: auto;
+}
+.post {
+
+    margin: auto;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+.timeline
+{
+    list-style-type: none;
+}
+.first-column {
+    width: 80%;
+    float: left;
+}
+
+.second-column {
+    width: 20%;
+    float: right;
 }
