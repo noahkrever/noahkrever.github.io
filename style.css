@@ -130,10 +130,12 @@ body
 {
     color: #fff !important;
 }
-.container
+hr
 {
-    padding-right: 0px;
-    padding-left: 0px;
+    height: 1px;
+    color: #0099cc;
+    background-color: #0099cc;
+    border: none;
 }
 #rocdate
 {
@@ -179,4 +181,202 @@ tbody
     display: block;
     border-collapse: collapse;
     margin: 0px;
+}
+#education
+{
+    width: 100%;
+    display: block;
+    border-collapse: collapse;
+    margin: 0px;
+}
+#eddate
+{
+    text-align: right;
+}
+.skill-button-container
+{
+    text-align: center;
+}
+.skillbutton{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color: black;
+    background-color: #FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    .skillbutton:hover{
+    columns: #0099cc;
+    color: #0099cc;
+    border-color:#0099cc;
+    }
+    .skillbutton:active{
+    color:#0099cc;
+    border-color:#0099cc;
+    background-color: #dddddd;
+    }
+    @media all and (max-width:30em){
+    .skillbutton{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+*:focus 
+{
+    outline: 0 !important;
+}
+#numpy
+{
+    display: none;
+}
+#pandas
+{
+    display: none;
+}
+#matplotlib
+{
+    display: none;
+}
+#scikit-learn
+{
+    display: none;
+}
+#jupyter
+{
+    display: none;
+}
+#modeling
+{
+    display: none;
+}
+#seaborn
+{
+    display: none;
+}
+#plotly
+{
+    display: none;
+}
+#oracle
+{
+    display: none;
+}
+#aws
+{
+    display: none;
+}
+#postgresql
+{
+    display: none;
+}
+#mysql
+{
+    display: none;
+}
+#sqlite
+{
+    display: none;
+}
+#dbeaver
+{
+    display: none;
+}
+#excel
+{
+    display: none;
+}
+#python
+{
+    display: none;
+}
+#sql
+{
+    display: none;
+}
+#django
+{
+    display: none;
+}
+#java
+{
+    display: none;
+}
+#html
+{
+    display: none;
+}
+#css
+{
+    display: none;
+}
+#javascript
+{
+    display: none;
+}
+#matlab
+{
+    display: none;
+}
+#labview
+{
+    display: none;
+}
+#imagej
+{
+    display: none;
+}
+#latex
+{
+    display: none;
+}
+#word
+{
+    display: none;
+}
+#powerpoint
+{
+    display: none;
+}
+#windows
+{
+    display: none;
+}
+#macos
+{
+    display: none;
+}
+#adobe
+{
+    display: none;
+}
+#math
+{
+    display: none;
+}
+#stats
+{
+    display: none;
+}
+#cs
+{
+    display: none;
+}
+#physics
+{
+    display: none;
+}
+#algorithms
+{
+    display: none;
+}
+#git
+{
+    display: none;
 }
