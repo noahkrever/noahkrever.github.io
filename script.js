@@ -1,4 +1,11 @@
+function scrollSmoothToBottom (id) {
+    var div = document.getElementById(id);
+    $('#' + id).animate({
+       scrollTop: div.scrollHeight - div.clientHeight
+    }, 500);
+ }
 function showAll() {
+
     document.getElementById('numpy').style.display = 'block';
     document.getElementById('pandas').style.display = 'block';
     document.getElementById('matplotlib').style.display = 'block';
@@ -27,15 +34,15 @@ function showAll() {
     document.getElementById('latex').style.display = 'block';
     document.getElementById('word').style.display = 'block';
     document.getElementById('powerpoint').style.display = 'block';
-    document.getElementById('windows').style.display = 'block';
-    document.getElementById('macos').style.display = 'block';
-    document.getElementById('adobe').style.display = 'block';
+
     document.getElementById('math').style.display = 'block';
     document.getElementById('stats').style.display = 'block';
     document.getElementById('cs').style.display = 'block';
     document.getElementById('physics').style.display = 'block';
     document.getElementById('algorithms').style.display = 'block';
     document.getElementById('git').style.display = 'block';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth"});
 }
 function showDataScience() {
     document.getElementById('numpy').style.display = 'block';
@@ -66,15 +73,15 @@ function showDataScience() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-    document.getElementById('windows').style.display = 'none';
-    document.getElementById('macos').style.display = 'none';
-    document.getElementById('adobe').style.display = 'none';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'block';
     document.getElementById('cs').style.display = 'block';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'none';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 function showDataViz() {
     document.getElementById('numpy').style.display = 'none';
@@ -105,15 +112,15 @@ function showDataViz() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-    document.getElementById('windows').style.display = 'none';
-    document.getElementById('macos').style.display = 'none';
-    document.getElementById('adobe').style.display = 'none';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'none';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 function showDataBases() {
     document.getElementById('numpy').style.display = 'none';
@@ -144,15 +151,15 @@ function showDataBases() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-    document.getElementById('windows').style.display = 'none';
-    document.getElementById('macos').style.display = 'none';
-    document.getElementById('adobe').style.display = 'none';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'block';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'none';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 function showPython() {
     document.getElementById('numpy').style.display = 'block';
@@ -183,15 +190,15 @@ function showPython() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-    document.getElementById('windows').style.display = 'none';
-    document.getElementById('macos').style.display = 'none';
-    document.getElementById('adobe').style.display = 'none';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'block';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'none';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 function showLanguages() {
     document.getElementById('numpy').style.display = 'none';
@@ -222,15 +229,15 @@ function showLanguages() {
     document.getElementById('latex').style.display = 'block';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-    document.getElementById('windows').style.display = 'none';
-    document.getElementById('macos').style.display = 'none';
-    document.getElementById('adobe').style.display = 'none';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'none';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 function showSoftware() {
     document.getElementById('numpy').style.display = 'none';
@@ -261,15 +268,15 @@ function showSoftware() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'block';
     document.getElementById('powerpoint').style.display = 'block';
-    document.getElementById('windows').style.display = 'block';
-    document.getElementById('macos').style.display = 'block';
-    document.getElementById('adobe').style.display = 'block';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'block';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
 function showWebdev() {
     document.getElementById('numpy').style.display = 'none';
@@ -300,13 +307,13 @@ function showWebdev() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-    document.getElementById('windows').style.display = 'none';
-    document.getElementById('macos').style.display = 'none';
-    document.getElementById('adobe').style.display = 'none';
+
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'block';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }

@@ -8,7 +8,7 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="script.js"></script>">
-
+<script src="jquery-3.5.1.js"></script>
 </head>
  <body>
 
@@ -231,161 +231,206 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 <button class="skillbutton" type="button" onclick="showSoftware()">Software</button>
 <button class="skillbutton" type="button" onclick="showWebdev()">Web Development</button>
 </div>
-<div class="skill-row-container">
+<div class="skill-row-container" id="skillrows">
 
-<div id="numpy">
-<h6>NumPy</h6><span class="bar"><span class="numpy"></span></span>
+<ul>
+  <li class="numpy" id="numpy">
+<h6>NumPy</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="pandas" id="pandas">
+
+<h6>Pandas</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="matplotlib" id="matplotlib">
+
+<h6>matplotlib</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="scikit-learn" id="scikit-learn">
+
+<h6>Sckit-Learn</h6>
+<p class="percent">80%</p>
+</li>
+
+<li class="jupyter" id="jupyter">
+
+<h6>Jupyter</h6>
+<p class="percent">80%</p>
+</li>
+
+<li class="modeling" id="modeling">
+
+<h6>Modeling</h6>
+<p class="percent">70%</p>
+</li>
+
+<li class="seaborn" id="seaborn">
+
+<h6>Seaborn</h6>
+<p class="percent">60%</p>
+</li>
+
+<li class="plotly" id="plotly">
+
+<h6>Plotly</h6>
+<p class="percent">90%</p>
+</li>
+
+<li class="oracle" id="oracle">
+
+<h6>Oracle</h6>
+<p class="percent">70%</p>
+</li>
+
+<li class="aws" id="aws">
+
+<h6>AWS</h6>
+<p class="percent">50%</p>
+</li>
+
+<li class="postgresql" id="postgresql">
+
+<h6>PostgreSQL</h6>
+<p class="percent">70%</p>
+</li>
+
+<li class="mysql" id="mysql">
+
+<h6>MySQL</h6>
+<p class="percent">75%</p>
+</li>
+
+<li class="sqlite" id="sqlite">
+
+<h6>SQLite</h6>
+<p class="percent">65%</p>
+</li>
+
+<li class="dbeaver" id="dbeaver">
+
+<h6>DBeaver</h6>
+<p class="percent">90%</p>
+</li>
+
+<li class="excel" id="excel">
+
+<h6>Excel</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="python" id="python">
+
+<h6>Python</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="sql" id="sql">
+<h6>SQL</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="django" id="django">
+<h6>Django</h6>
+<p class="percent">70%</p>
+</li>
+
+<li class="java" id="java">
+<h6>Java</h6>
+<p class="percent">85%</p>
+
+</li>
+
+<li class="html" id="html">
+<h6>HTML</h6>
+<p class="percent">90%</p>
+
+</li>
+
+<li class="css" id="css">
+<h6>CSS</h6>
+<p class="percent">90%</p>
+
+</li>
+
+<li class="javascript" id="javascript">
+<h6>Javascript</h6>
+<p class="percent">75%</p>
+</li>
+
+<li class="matlab" id="matlab">
+<h6>MATLAB</h6>
+<p class="percent">80%</p>
+</li>
+
+<li class="labview" id="labview">
+<h6>LabView</h6>
+<p class="percent">75%</p>
+</li>
+
+<li class="imagej" id="imagej">
+<h6>ImageJ</h6>
+<p class="percent">75%</p>
+</li>
+
+<li class="latex" id="latex">
+<h6>LaTeX</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="word" id="word">
+<h6>Word</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="powerpoint" id="powerpoint">
+<h6>PowerPoint</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="math" id="math">
+<h6>Math</h6>
+<p class="percent">100%</p>
+
+</li>
+
+<li class="stats" id="stats">
+<h6>Statistics</h6>
+<p class="percent">100%</p>
+
+</li>
+
+<li class="cs" id="cs">
+<h6>Computer Science</h6>
+<p class="percent">100%</p>
+
+</li>
+
+<li class="physics" id="physics">
+<h6>Physics</h6>
+<p class="percent">5%</p>
+
+</li>
+
+<li class="algorithms" id="algorithms">
+<h6>Algorithms</h6>
+<p class="percent">90%</p>
+
+</li>
+
+<li class="git" id="git">
+<h6>Git</h6>
+<p class="percent">75%</p>
+
+</li>
+
+</ul>
+
 </div>
-
-<div id="pandas">
-<h6>Pandas</h6><span class="bar"><span class="pandas"></span></span>
-</div>
-
-<div id="matplotlib">
-<h6>matplotlib</h6><span class="bar"><span class="matplotlib"></span></span>
-</div>
-
-<div id="scikit-learn">
-<h6>Sckit-Learn</h6><span class="bar"><span class="scikit-learn"></span></span>
-</div>
-
-<div id="jupyter">
-<h6>Jupyter</h6><span class="bar"><span class="jupyter"></span></span>
-</div>
-
-<div id="modeling">
-<h6>Modeling</h6><span class="bar"><span class="modeling"></span></span>
-</div>
-
-<div id="seaborn">
-<h6>seaborn</h6><span class="bar"><span class="seaborn"></span></span>
-</div>
-
-<div id="plotly">
-<h6>Plotly</h6><span class="bar"><span class="plotly"></span></span>
-</div>
-
-<div id="oracle">
-<h6>Oracle</h6><span class="bar"><span class="oracle"></span></span>
-</div>
-
-<div id="aws">
-<h6>AWS</h6><span class="bar"><span class="aws"></span></span>
-</div>
-
-<div id="postgresql">
-<h6>PostgreSQL</h6><span class="bar"><span class="postgresql"></span></span>
-</div>
-
-<div id="mysql">
-<h6>MySQL</h6><span class="bar"><span class="mysql"></span></span>
-</div>
-
-<div id="sqlite">
-<h6>SQLite</h6><span class="bar"><span class="sqlite"></span></span>
-</div>
-
-<div id="dbeaver">
-<h6>DBeaver</h6><span class="bar"><span class="dbeaver"></span></span>
-</div>
-
-<div id="excel">
-<h6>Excel</h6><span class="bar"><span class="excel"></span></span>
-</div>
-
-<div id="python">
-<h6>Python</h6><span class="bar"><span class="python"></span></span>
-</div>
-
-<div id="sql">
-<h6>SQL</h6><span class="bar"><span class="sql"></span></span>
-</div>
-
-<div id="django">
-<h6>Django</h6><span class="bar"><span class="django"></span></span>
-</div>
-
-<div id="java">
-<h6>Java</h6><span class="bar"><span class="java"></span></span>
-</div>
-
-<div id="html">
-<h6>HTML</h6><span class="bar"><span class="html"></span></span>
-</div>
-
-<div id="css">
-<h6>CSS</h6><span class="bar"><span class="css"></span></span>
-</div>
-
-<div id="javascript">
-<h6>Javascript</h6><span class="bar"><span class="javascript"></span></span>
-</div>
-
-<div id="matlab">
-<h6>MATLAB</h6><span class="bar"><span class="matlab"></span></span>
-</div>
-
-<div id="labview">
-<h6>LabView</h6><span class="bar"><span class="labview"></span></span>
-</div>
-
-<div id="imagej">
-<h6>ImageJ</h6><span class="bar"><span class="imagej"></span></span>
-</div>
-
-<div id="latex">
-<h6>LaTeX</h6><span class="bar"><span class="latex"></span></span>
-</div>
-
-<div id="word">
-<h6>Word</h6><span class="bar"><span class="word"></span></span>
-</div>
-
-<div id="powerpoint">
-<h6>PowerPoint</h6><span class="bar"><span class="powerpoint"></span></span>
-</div>
-
-<div id="windows">
-<h6>Windows</h6><span class="bar"><span class="windows"></span></span>
-</div>
-
-<div id="macos">
-<h6>Mac OS</h6><span class="bar"><span class="macos"></span></span>
-</div>
-
-<div id="adobe">
-<h6>Adobe Suite</h6><span class="bar"><span class="adobe"></span></span>
-</div>
-
-<div id="math">
-<h6>Math</h6><span class="bar"><span class="math"></span></span>
-</div>
-
-<div id="stats">
-<h6>Statistics</h6><span class="bar"><span class="stats"></span></span>
-</div>
-
-<div id="cs">
-<h6>Computer Science</h6><span class="bar"><span class="cs"></span></span>
-</div>
-
-<div id="physics">
-<h6>Physics</h6><span class="bar"><span class="physics"></span></span>
-</div>
-
-<div id="algorithms">
-<h6>Algorithms</h6><span class="bar"><span class="algorithms"></span></span>
-</div>
-
-<div id="git">
-<h6>Git</h6><span class="bar"><span class="git"></span></span>
-</div>
-
-
-</div>
-
-
-
 
 
 </div>

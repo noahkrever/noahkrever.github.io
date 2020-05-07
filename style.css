@@ -230,8 +230,80 @@ tbody
 }
 *:focus 
 {
+    color:#0099cc;
+    border-color:#0099cc;
     outline: 0 !important;
 }
+.skill-row-container
+{
+
+    margin: auto 0;
+    padding: 5px;
+    color: black;
+    overflow: hidden;
+}
+.skill-row-container li
+{
+    margin: 25px 0;
+    list-style: none;
+    position: relative;
+    display: block;
+    
+
+}
+.percent
+{
+    position: absolute;
+    right: 0;
+    top: calc(100%);
+    height: 20px;
+    color: black;
+    text-align: right;
+    line-height: 20px;
+    margin: 0;
+    margin-right: 2px;
+    z-index: 1;
+
+}
+.skill-row-container li::before
+{
+    content: "";
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(54,126,223,.5);
+    border-radius: 1000px;
+    z-index: 0;
+}
+.skill-row-container li::after
+{
+    content: "";
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    width: 0;
+    height: 20px;
+    background-color: rgb(54,126,223,1);
+    border-radius: 1000px;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    z-index: 0;
+
+}
+.skill-row-container li.extend 
+{
+    width: 
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 #numpy
 {
     display: none;
@@ -276,11 +348,11 @@ tbody
 {
     display: none;
 }
-#mysql
+#sqlite
 {
     display: none;
 }
-#sqlite
+#mysql
 {
     display: none;
 }
@@ -324,11 +396,11 @@ tbody
 {
     display: none;
 }
-#labview
+#imagej
 {
     display: none;
 }
-#imagej
+#labview
 {
     display: none;
 }
@@ -341,18 +413,6 @@ tbody
     display: none;
 }
 #powerpoint
-{
-    display: none;
-}
-#windows
-{
-    display: none;
-}
-#macos
-{
-    display: none;
-}
-#adobe
 {
     display: none;
 }
@@ -379,4 +439,364 @@ tbody
 #git
 {
     display: none;
+}
+
+li.numpy:after
+{
+    animation-name: numpy;
+}
+li.pandas:after
+{
+    animation-name: pandas;
+}
+li.matplotlib:after
+{
+    animation-name: matplotlib;
+}
+li.scikit-learn:after
+{
+
+    animation-name: scikit-learn;
+}
+li.jupyter:after
+{
+
+    animation-name: jupyter;
+}
+li.modeling:after
+{
+
+    animation-name: modeling;
+}
+li.seaborn:after
+{
+
+    animation-name: seaborn;
+}
+li.plotly:after
+{
+
+    animation-name: plotly;
+}
+li.oracle:after
+{
+
+    animation-name: oracle;
+}
+li.aws:after
+{
+
+    animation-name: aws;
+}
+li.postgresql:after
+{
+
+    animation-name: postgresql;
+}
+li.mysql:after
+{
+
+    animation-name: mysql;
+}
+li.sqlite:after
+{
+    animation-name: sqlite;
+}
+li.dbeaver:after
+{
+
+    animation-name: dbeaver;
+}
+li.excel:after
+{
+
+    animation-name: excel;
+}
+li.python:after
+{
+
+    animation-name: python;
+}
+li.sql:after
+{
+ 
+    animation-name: sql;
+}
+li.django:after
+{
+
+    animation-name: django;
+}
+li.java:after
+{
+
+    animation-name: java;
+}
+li.html:after
+{
+    animation-name: html;
+}
+li.css:after
+{
+    animation-name: css;
+}
+li.javascript:after
+{
+
+    animation-name: javascript;
+}
+li.matlab:after
+{
+
+    animation-name: matlab;
+}
+li.labview:after
+{
+
+    animation-name: labview;
+}
+li.imagej:after
+{
+
+    animation-name: imagej;
+}
+li.latex:after
+{
+
+    animation-name: latex;
+}
+li.word:after
+{
+    animation-name: word;
+}
+li.powerpoint:after
+{
+    animation-name: powerpoint;
+}
+li.math:after
+{
+    animation-name: math;
+}
+li.stats:after
+{
+    animation-name: stats;
+}
+li.cs:after
+{
+    animation-name: cs;
+}
+li.physics:after
+{
+    animation-name: physics;
+}
+li.algorithms:after
+{
+    animation-name: algorithms;
+}
+li.git:after
+{
+    animation-name: git;
+}
+@keyframes numpy {
+    to{
+        width: 100%;
+    }
+}
+@keyframes pandas {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes matplotlib {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes scikit-learn {
+
+    to{
+        width: 80%;
+    }
+}
+@keyframes jupyter {
+
+    to{
+        width: 80%;
+    }
+}
+@keyframes modeling {
+
+    to{
+        width: 70%;
+    }
+}
+@keyframes seaborn {
+
+    to{
+        width: 60%;
+    }
+}
+@keyframes plotly {
+
+    to{
+        width: 90%;
+    }
+}
+@keyframes oracle {
+
+    to{
+        width: 70%;
+    }
+}
+@keyframes aws {
+
+    to{
+        width: 50%;
+    }
+}
+@keyframes postgresql {
+
+    to{
+        width: 70%;
+    }
+}
+@keyframes sqlite {
+
+    to{
+        width: 75%;
+    }
+}
+@keyframes mysql {
+
+    to{
+        width: 65%;
+    }
+}
+@keyframes dbeaver {
+
+    to{
+        width: 90%;
+    }
+}
+@keyframes excel {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes sql {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes python {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes django {
+
+    to{
+        width: 70%;
+    }
+}
+@keyframes java {
+
+    to{
+        width: 85%;
+    }
+}
+@keyframes html {
+
+    to{
+        width: 90%;
+    }
+}
+@keyframes css {
+
+    to{
+        width: 90%;
+    }
+}
+@keyframes javascript {
+
+    to{
+        width: 75%;
+    }
+}
+@keyframes matlab {
+
+    to{
+        width: 80%;
+    }
+}
+@keyframes labview {
+
+    to{
+        width: 75%;
+    }
+}
+@keyframes imagej {
+
+    to{
+        width: 75%;
+    }
+}
+@keyframes latex {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes word {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes powerpoint {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes math {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes stats {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes cs {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes physics {
+
+    to{
+        width: 5%;
+    }
+}
+@keyframes algorithms {
+
+    to{
+        width: 90%;
+    }
+}
+@keyframes git {
+
+    to{
+        width: 75%;
+    }
 }
