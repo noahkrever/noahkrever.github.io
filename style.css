@@ -291,17 +291,6 @@ tbody
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     z-index: 0;
-
-}
-.skill-row-container li.extend 
-{
-    width: 
-
-}
-*
-{
-    margin: 0;
-    padding: 0;
 }
 
 #numpy
