@@ -2,16 +2,16 @@
 <head>
 <title>Noah Krever</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap
-.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="script.js"></script>">
+<script src="script.js"></script>
 <script src="jquery-3.5.1.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
- <body>
+<body>
+
 
 <!---------------Header---------------->
 <section id="header">
@@ -40,13 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="#header">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ABOUT ME</a>
+              <a class="nav-link" href="#user-info">ABOUT ME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">RESUME</a>
+              <a class="nav-link" href="#resume">RESUME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">PROJECTS</a>
@@ -60,7 +60,7 @@
       </div>
 
       <!-------About-------->
-<div class="about container" id="about">
+<div class="about-container" id="about">
 <div class="row">
 <div class="col-md-6 text_center">
 <img src="images/cali.jpg" class="profile-img">
@@ -73,7 +73,7 @@ My name is Noah Krever, and I am a junior at Columbia University studying Data S
 <h4>What do I do?</h4>
 <p>
 I arrived at Columbia interested in physics, but more recently, I have fallen in love with Data Science, Machine Learning, and AI.
-I hope to explore the endless potential applications of these fields in both academia and industry. For over a year, I have been
+I hope to explore the endless applications of these fields in both academia and industry. For over a year, I have been
 working on a research project at the interface of Machine Learning and Astrophysics, and I hope to publish soon.
 I am also a Data Scientist intern at ROC Capital LLC, a real-estate lending firm in NYC. Outside of research and Data Science, I love studying Math
 and Computer Science, and in my spare time, I am learning Web Development and UI Design.
@@ -226,16 +226,24 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 <button class="skillbutton" type="button" onclick="showAll()">All</button>
 <button class="skillbutton" type="button" onclick="showDataScience()">Data Science</button>
 <button class="skillbutton" type="button" onclick="showDataViz()">Data Visualization</button>
-<button class="skillbutton" type="button" onclick="showDataBases()">Databases</button>
-<button class="skillbutton" type="button" onclick="showPython()">Python</button>
-<button class="skillbutton" type="button" onclick="showLanguages()">Languages</button>
-<button class="skillbutton" type="button" onclick="showSoftware()">Software</button>
-<button class="skillbutton" type="button" onclick="showWebdev()">Web Development</button>
+<button class="skillbutton" type="button" onclick="showDataBases();">Databases</button>
+<button class="skillbutton" type="button" onclick="showPython();">Python</button>
+<button class="skillbutton" type="button" onclick="showLanguages();">Languages</button>
+<button class="skillbutton" type="button" onclick="showSoftware();">Software</button>
+<button class="skillbutton" type="button" onclick="showWebdev();">Web Development</button>
+<button class="skillbutton" type="button" onclick="hideAll()">Hide Skills</button>
 </div>
 <div class="skill-row-container" id="skillrows">
 
 <ul>
-  <li class="numpy" id="numpy">
+
+<li class="python" id="python">
+
+<h6>Python</h6>
+<p class="percent">100%</p>
+</li>
+
+<li class="numpy" id="numpy">
 <h6>NumPy</h6>
 <p class="percent">100%</p>
 </li>
@@ -321,12 +329,6 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 <li class="excel" id="excel">
 
 <h6>Excel</h6>
-<p class="percent">100%</p>
-</li>
-
-<li class="python" id="python">
-
-<h6>Python</h6>
 <p class="percent">100%</p>
 </li>
 
@@ -433,12 +435,93 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 
 </div>
 
+<div class="courses" id="course-section">
+<h5>Relevant Coursework</h5>
+<hr>
+<div class="course-list">
+
+<ul>
+
+<li>
+<a href="http://bulletin.columbia.edu/search/?P=PHYS%20UN2801" target="_blank"><b>PHYS 2801 & 2802: </b>ACCELERATED PHYSICS</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=MATH%20UN3027" target="_blank"><b>MATH 3027: </b>DIFFERENTIAL EQUATIONS</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=APMA%20E4300" target="_blank"><b>APMA 4300: </b>NUMERICAL METHODS</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=COMS%20W3134" target="_blank"><b>COMS 3134: </b>DATA STRUCTURES</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=MATH%20UN1202" target="_blank"><b>MATH 1201 & 1202: </b>MULTIVAR./VECTOR CALC.</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=COMS%20UN2010" target="_blank"><b>MATH 2010: </b>LINEAR ALGEBRA</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=MATH%20UN3028" target="_blank"><b>APMA 3102: </b>PARTIAL DIFFERNTIAL EQUATIONS</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=COMS%20W3203" target="_blank"><b>COMS 3203: </b>DISCRETE MATH</a>
+</li>
+
+<li>
+  <a href="https://bulletin.engineering.columbia.edu/courses-1" target="_blank"><b>IEOR 3658: </b>PROBABILITY</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=COMS%20W4701" target="_blank"><b>COMS 4701: </b>ARTIFICIAL INTELLIGENCE</a>
+</li>
+
+<li>
+  <a href="http://bulletin.columbia.edu/search/?P=CSOR%20W4231" target="_blank"><b>CSOR 4231: </b>ANALYSIS OF ALGORITHMS</a>
+</li>
+
+</ul>
+</div>
+
 
 </div>
+
+</div>
+
 </div>
 
 </div>
 </article>
+<div class="contact" id="contact">
+<div class="container text-center">
+<h5>Contact Me</h5>
+<p id="contact-text">Let's get in touch!</p>
+<div class="row">
+<div class="col-md-4"><a href="mailto:ndk2115@columbia.edu" target="_blank">
+<i class="fa fa-envelope"></i>
+<p>ndk2115@columbia.edu</p>
+</a>
+</div>
+<div class="col-md-4"><a href="https://www.linkedin.com/in/noahkrever/" target="_blank">
+<i class="fa fa-linkedin"></i>
+<p>LinkedIn</p>
+</a>
+</div>
+<div class="col-md-4"><a href="https://github.com/noahkrever" target="_blank">
+<i class="fa fa-github"></i>
+<p>GitHub</p>
+</a>
+</div>
+
+</div>
+</div>
+</div>
 </section>
 
 
