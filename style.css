@@ -195,7 +195,8 @@ hr
     margin:0;
     margin-left: 150px;
     margin-right: 150px;
-    background: #c1c8e4;
+    /* background: #c1c8e4; */
+    background: #AFB8DC;
     border: solid 2px white;
     border-radius: 25px;
     padding: 50px;
@@ -243,14 +244,14 @@ tbody
 .skillbutton{
     display:inline-block;
     padding:0.5em 3em;
-    border:0.16em solid #c1c8e4;
+    border:0.16em solid #AFB8DC;
     margin:0 0.3em 0.3em 0;
     box-sizing: border-box;
     text-decoration:none;
     text-transform:uppercase;
     font-weight:400;
     color: white;
-    background-color: #c1c8e4;
+    background-color: #AFB8DC;
     text-align:center;
     transition: all 0.15s;
     }
