@@ -1,4 +1,5 @@
 <html>
+
 <head>
 <title>Noah Krever</title>
 <link rel="stylesheet" href="style.css">
@@ -8,6 +9,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
 <script src="jquery-3.5.1.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -23,7 +26,7 @@
 </div>
 </div>
 <div class="scroll-btn">
-<div class="scroll-bar"><a href=""><span></span></a>
+<div class="scroll-bar"><a href="#about"><span></span></a>
 
 </div>
 </div>
@@ -43,7 +46,7 @@
               <a class="nav-link" href="#header">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#user-info">ABOUT ME</a>
+              <a class="nav-link" href="#about">ABOUT ME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#resume">RESUME</a>
@@ -52,7 +55,7 @@
               <a class="nav-link" href="#">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -60,6 +63,10 @@
       </div>
 
       <!-------About-------->
+<!--------Social Icons--------->
+
+<div class="wrapper">
+  
 <div class="about-container" id="about">
 <div class="row">
 <div class="col-md-6 text_center">
@@ -94,12 +101,24 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
   </div>
 </div>
 </div>
-</div>
+<div class="social-icons">
+
+  <ul>
+  <a href="mailto:ndk2115@columbia.edu" target="_blank"><li><i class="fa fa-envelope"></i></li></a>
+  <a href="https://www.linkedin.com/in/noahkrever/" target="_blank"><li><i class="fa fa-linkedin"></i></li></a>
+  <a href="https://github.com/noahkrever" target="_blank"><li><i class="fa fa-github"></i></li></a>
+  <a href="https://www.kaggle.com/noahkrever" target="_blank"><li><i class="fab fa-kaggle"></i></li></a>
+  
+  
+  </ul>
+  
+  
+  </div>
 
 <!-------Resume---------->
+
+<div id="main">
 <article class="post" id="resume">
-<div class="row"></div>
-<div class="container">
 <h5>Education</h5>
 <hr>
 <table id="education">
@@ -226,11 +245,11 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 <button class="skillbutton" type="button" onclick="showAll()">All</button>
 <button class="skillbutton" type="button" onclick="showDataScience()">Data Science</button>
 <button class="skillbutton" type="button" onclick="showDataViz()">Data Visualization</button>
-<button class="skillbutton" type="button" onclick="showDataBases();">Databases</button>
-<button class="skillbutton" type="button" onclick="showPython();">Python</button>
-<button class="skillbutton" type="button" onclick="showLanguages();">Languages</button>
-<button class="skillbutton" type="button" onclick="showSoftware();">Software</button>
-<button class="skillbutton" type="button" onclick="showWebdev();">Web Development</button>
+<button class="skillbutton" type="button" onclick="showDataBases()">Databases</button>
+<button class="skillbutton" type="button" onclick="showPython()">Python</button>
+<button class="skillbutton" type="button" onclick="showLanguages()">Languages</button>
+<button class="skillbutton" type="button" onclick="showSoftware()">Software</button>
+<button class="skillbutton" type="button" onclick="showWebdev()">Web Development</button>
 <button class="skillbutton" type="button" onclick="hideAll()">Hide Skills</button>
 </div>
 <div class="skill-row-container" id="skillrows">
@@ -492,12 +511,9 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 
 </div>
 
-</div>
-
-</div>
-
-</div>
 </article>
+</div>
+
 <div class="contact" id="contact">
 <div class="container text-center">
 <h5>Contact Me</h5>
@@ -522,7 +538,15 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 </div>
 </div>
 </div>
+</div>
+
 </section>
+
+<script src="smooth-scroll.js"></script>
+
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
 
 </body>
