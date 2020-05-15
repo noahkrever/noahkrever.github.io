@@ -2,16 +2,29 @@
 
 <head>
 <title>Noah Krever</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
-<script src="jquery-3.5.1.js"></script>
+<script src="js/script.js"></script>
+<script src="js/jquery-3.5.1.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/brands.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<!-- Google Fonts Roboto -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Material Design Bootstrap -->
+<link rel="stylesheet" href="css/mdb.min.css">
+
 </head>
 <body>
 
@@ -49,10 +62,10 @@
               <a class="nav-link" href="#about">ABOUT ME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#resume">RESUME</a>
+              <a class="nav-link" href="#projects">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PROJECTS</a>
+              <a class="nav-link" href="#resume">RESUME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">CONTACT</a>
@@ -63,9 +76,9 @@
       </div>
 
       <!-------About-------->
-<!--------Social Icons--------->
 
-<div class="wrapper">
+
+<!-- <div class="wrapper"> -->
   
 <div class="about-container" id="about">
 <div class="row">
@@ -101,6 +114,8 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
   </div>
 </div>
 </div>
+
+<!--------Social Icons--------->
 <div class="social-icons">
 
   <ul>
@@ -113,6 +128,82 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
   </ul>
   
   
+  </div>
+
+  <div class="project-container" id="projects">
+<!-- Section heading -->
+<h4 id="projects-header">Projects</h4>
+<!-- Section description -->
+<p class="white-text w-responsive mx-auto mb-5">Here are some of the projects from my research, or my own personal interests
+  that I've finished or I'm working on. Check back here to see what I'm up to!
+</p>
+<!-- <p class="white-text w-responsive mx-auto mb-5">Here are some of the projects from my research, or my own personal interests
+  that I've finished or I'm working on. Check back here to see what I'm up to!
+</p> -->
+
+<!-- Grid row -->
+<div class="row text-center">
+
+<!-- Grid column -->
+<div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
+  <!--Featured image-->
+  <!-- <div class="view overlay rounded z-depth-1">
+    <img src="https://mdbootstrap.com/img/Photos/Others/images/58.jpg" class="img-fluid" alt="Sample project image">
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div> -->
+  <!--Excerpt-->
+  <!-- <div class="card-body pb-0">
+    <h4 class="font-weight-bold my-3">Title of the news article</h4>
+    <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+      eveniet ut et voluptates repudiandae.
+    </p>
+    <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+  </div> -->
+</div>
+<!-- Grid column -->
+
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-md-0 mb-4" id="middle-project">
+    <!--Featured image-->
+    <div class="view overlay rounded z-depth-1">
+      <img src="images/pg1302.jpg" class="img-fluid" alt="Sample project image">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+    <!--Excerpt-->
+    <div class="card-body pb-0">
+      <h4 class="font-weight-bold my-3">Is Quasar PG1302 A Binary Black Hole System?</h4>
+      <p class="white-text">Supermassive black hole system PG1302 appears periodic at optical wavelengths. I am leading an investigation 
+        into PG1302's periodicity by performing a likelihood analysis and comparing different noise/signal models. Does evidence for periodicity characteristic of a binary system 
+        increase or decrease with continued observations?
+      </p>
+      <a class="btn btn-sm"><i class="fas fa-clone left"></i> Coming Soon</a>
+    </div>
+  </div>
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6">
+    <!--Featured image-->
+    <!-- <div class="view overlay rounded z-depth-1">
+      <img src="https://mdbootstrap.com/img/Photos/Others/images/88.jpg" class="img-fluid" alt="Sample project image">
+      <a>
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div> -->
+    <!--Excerpt-->
+    <!-- <div class="card-body pb-0">
+      <h4 class="font-weight-bold my-3">Title of the news article</h4>
+      <p class="grey-text">Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+        eveniet ut et voluptates repudiandae.
+      </p>
+      <a class="btn btn-indigo btn-sm"><i class="fas fa-clone left"></i> View project</a>
+    </div> -->
+  </div>
+
+  </div>
   </div>
 
 <!-------Resume---------->
@@ -152,16 +243,16 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 <p><i>Intern, Data Science/Machine Learning</i></p>
 
 <ul>
-<li>Leading time series loan-volume analysis project to detect underlying trends and train predictive models</li>
-<li>Developing scripts for statistical analysis of large (qualitative and numerical) datasets</li>
-<li>Utilizing extensively Python’s machine learning and statistical analysis capabilities</li>
-<li>Generating sleek data visualizations and writing reports to communicate trends and findings</li>
+<li>Lead time series loan-volume analysis project to detect underlying trends and train predictive models</li>
+<li>Developed scripts for statistical analysis of large (qualitative and numerical) datasets</li>
+<li>Utilized extensively Python’s machine learning and statistical analysis capabilities</li>
+<li>Generated sleek data visualizations and presented trends and findings</li>
 </ul>
 </p>
 
 </td>
 <td valign="top">
-<p id="rocdate">Jan. 2020 - Present</p>
+<p id="rocdate">Jan. 2020 - May 2020</p>
 </td>
 </tr>
 
@@ -538,7 +629,7 @@ and Computer Science, and in my spare time, I am learning Web Development and UI
 </div>
 </div>
 </div>
-</div>
+<!-- </div> -->
 
 </section>
 
