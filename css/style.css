@@ -572,6 +572,10 @@ table p
 {
     display: none;
 }
+#feature-engineering
+{
+    display: none;
+}
 #seaborn
 {
     display: none;
@@ -636,6 +640,10 @@ table p
 {
     display: none;
 }
+#bash
+{
+    display:none;
+}
 #matlab
 {
     display: none;
@@ -657,6 +665,14 @@ table p
     display: none;
 }
 #powerpoint
+{
+    display: none;
+}
+#research
+{
+    display: none;
+}
+#leadership
 {
     display: none;
 }
@@ -711,6 +727,10 @@ li.modeling:after
 {
 
     animation-name: modeling;
+}
+li.feature-engineering:after
+{
+    animation-name: feature-engineering;
 }
 li.seaborn:after
 {
@@ -789,6 +809,10 @@ li.javascript:after
 
     animation-name: javascript;
 }
+li.bash:after
+{
+    animation-name: bash;
+}
 li.matlab:after
 {
 
@@ -816,6 +840,16 @@ li.word:after
 li.powerpoint:after
 {
     animation-name: powerpoint;
+}
+li.research:after
+{
+
+    animation-name: research;
+}
+li.leadership:after
+{
+
+    animation-name: leadership;
 }
 li.math:after
 {
@@ -874,6 +908,12 @@ li.git:after
 
     to{
         width: 70%;
+    }
+}
+@keyframes feature-engineering {
+
+    to{
+        width: 80%;
     }
 }
 @keyframes seaborn {
@@ -972,6 +1012,12 @@ li.git:after
         width: 75%;
     }
 }
+@keyframes bash {
+
+    to{
+        width: 85%;
+    }
+}
 @keyframes matlab {
 
     to{
@@ -1014,22 +1060,34 @@ li.git:after
         width: 100%;
     }
 }
-@keyframes stats {
+@keyframes research {
 
     to{
         width: 100%;
+    }
+}
+@keyframes leadership {
+
+    to{
+        width: 100%;
+    }
+}
+@keyframes stats {
+
+    to{
+        width: 90%;
     }
 }
 @keyframes cs {
 
     to{
-        width: 100%;
+        width: 90%;
     }
 }
 @keyframes physics {
 
     to{
-        width: 5%;
+        width: 80%;
     }
 }
 @keyframes algorithms {

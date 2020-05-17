@@ -1,11 +1,5 @@
 
 function showAll() {
-    document.getElementById('math').style.display = 'block';
-    document.getElementById('stats').style.display = 'block';
-    document.getElementById('cs').style.display = 'block';
-    document.getElementById('physics').style.display = 'block';
-    document.getElementById('algorithms').style.display = 'block';
-    document.getElementById('git').style.display = 'block';
     document.getElementById('numpy').style.display = 'block';
     document.getElementById('pandas').style.display = 'block';
     document.getElementById('matplotlib').style.display = 'block';
@@ -14,6 +8,7 @@ function showAll() {
     document.getElementById('scikit-learn').style.display = 'block';
     document.getElementById('jupyter').style.display = 'block';
     document.getElementById('modeling').style.display = 'block';
+    document.getElementById('feature-engineering').style.display = 'block';
     document.getElementById('oracle').style.display = 'block';
     document.getElementById('aws').style.display = 'block';
     document.getElementById('sql').style.display = 'block';
@@ -28,13 +23,15 @@ function showAll() {
     document.getElementById('html').style.display = 'block';
     document.getElementById('css').style.display = 'block';
     document.getElementById('javascript').style.display = 'block';
+    document.getElementById('bash').style.display = 'block';
     document.getElementById('matlab').style.display = 'block';
     document.getElementById('labview').style.display = 'block';
     document.getElementById('imagej').style.display = 'block';
     document.getElementById('latex').style.display = 'block';
     document.getElementById('word').style.display = 'block';
     document.getElementById('powerpoint').style.display = 'block';
-
+    document.getElementById('research').style.display = 'block';
+    document.getElementById('leadership').style.display = 'block';
     document.getElementById('math').style.display = 'block';
     document.getElementById('stats').style.display = 'block';
     document.getElementById('cs').style.display = 'block';
@@ -53,6 +50,7 @@ function hideAll() {
     document.getElementById('scikit-learn').style.display = 'none';
     document.getElementById('jupyter').style.display = 'none';
     document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
     document.getElementById('sql').style.display = 'none';
@@ -73,6 +71,8 @@ function hideAll() {
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
@@ -89,6 +89,7 @@ function showDataScience() {
     document.getElementById('plotly').style.display = 'block';
     document.getElementById('scikit-learn').style.display = 'block';
     document.getElementById('jupyter').style.display = 'block';
+    document.getElementById('feature-engineering').style.display = 'block';
     document.getElementById('modeling').style.display = 'block';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
@@ -104,12 +105,15 @@ function showDataScience() {
     document.getElementById('html').style.display = 'none';
     document.getElementById('css').style.display = 'none';
     document.getElementById('javascript').style.display = 'none';
+    document.getElementById('bash').style.display = 'none';
     document.getElementById('matlab').style.display = 'block';
     document.getElementById('labview').style.display = 'none';
     document.getElementById('imagej').style.display = 'none';
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'block';
     document.getElementById('cs').style.display = 'block';
@@ -128,6 +132,7 @@ function showDataViz() {
     document.getElementById('scikit-learn').style.display = 'block';
     document.getElementById('jupyter').style.display = 'none';
     document.getElementById('modeling').style.display = 'block';
+    document.getElementById('feature-engineering').style.display = 'none';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
     document.getElementById('sql').style.display = 'none';
@@ -142,13 +147,15 @@ function showDataViz() {
     document.getElementById('html').style.display = 'none';
     document.getElementById('css').style.display = 'none';
     document.getElementById('javascript').style.display = 'none';
+    document.getElementById('bash').style.display = 'none';
     document.getElementById('matlab').style.display = 'block';
     document.getElementById('labview').style.display = 'none';
     document.getElementById('imagej').style.display = 'none';
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
@@ -167,6 +174,7 @@ function showDataBases() {
     document.getElementById('scikit-learn').style.display = 'none';
     document.getElementById('jupyter').style.display = 'none';
     document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
     document.getElementById('oracle').style.display = 'block';
     document.getElementById('aws').style.display = 'block';
     document.getElementById('sql').style.display = 'block';
@@ -181,12 +189,15 @@ function showDataBases() {
     document.getElementById('html').style.display = 'none';
     document.getElementById('css').style.display = 'none';
     document.getElementById('javascript').style.display = 'none';
+    document.getElementById('bash').style.display = 'none';
     document.getElementById('matlab').style.display = 'none';
     document.getElementById('labview').style.display = 'none';
     document.getElementById('imagej').style.display = 'none';
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
@@ -205,6 +216,7 @@ function showPython() {
     document.getElementById('scikit-learn').style.display = 'block';
     document.getElementById('jupyter').style.display = 'block';
     document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
     document.getElementById('sql').style.display = 'none';
@@ -219,13 +231,15 @@ function showPython() {
     document.getElementById('html').style.display = 'none';
     document.getElementById('css').style.display = 'none';
     document.getElementById('javascript').style.display = 'none';
+    document.getElementById('bash').style.display = 'none';
     document.getElementById('matlab').style.display = 'none';
     document.getElementById('labview').style.display = 'none';
     document.getElementById('imagej').style.display = 'none';
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'block';
@@ -244,6 +258,7 @@ function showLanguages() {
     document.getElementById('scikit-learn').style.display = 'none';
     document.getElementById('jupyter').style.display = 'none';
     document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
     document.getElementById('sql').style.display = 'block';
@@ -258,13 +273,15 @@ function showLanguages() {
     document.getElementById('html').style.display = 'block';
     document.getElementById('css').style.display = 'block';
     document.getElementById('javascript').style.display = 'block';
+    document.getElementById('bash').style.display = 'block';
     document.getElementById('matlab').style.display = 'block';
     document.getElementById('labview').style.display = 'block';
     document.getElementById('imagej').style.display = 'block';
     document.getElementById('latex').style.display = 'block';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
@@ -274,15 +291,16 @@ function showLanguages() {
 
     document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
-function showSoftware() {
-    document.getElementById('numpy').style.display = 'none';
-    document.getElementById('pandas').style.display = 'none';
+function showMachineLearning() {
+    document.getElementById('numpy').style.display = 'block';
+    document.getElementById('pandas').style.display = 'block';
     document.getElementById('matplotlib').style.display = 'none';
     document.getElementById('seaborn').style.display = 'none';
     document.getElementById('plotly').style.display = 'none';
-    document.getElementById('scikit-learn').style.display = 'none';
-    document.getElementById('jupyter').style.display = 'none';
-    document.getElementById('modeling').style.display = 'none';
+    document.getElementById('scikit-learn').style.display = 'block';
+    document.getElementById('jupyter').style.display = 'block';
+    document.getElementById('modeling').style.display = 'block';
+    document.getElementById('feature-engineering').style.display = 'block';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
     document.getElementById('sql').style.display = 'none';
@@ -290,26 +308,28 @@ function showSoftware() {
     document.getElementById('mysql').style.display = 'none';
     document.getElementById('sqlite').style.display = 'none';
     document.getElementById('dbeaver').style.display = 'none';
-    document.getElementById('excel').style.display = 'block';
+    document.getElementById('excel').style.display = 'none';
     document.getElementById('python').style.display = 'none';
     document.getElementById('django').style.display = 'none';
     document.getElementById('java').style.display = 'none';
     document.getElementById('html').style.display = 'none';
     document.getElementById('css').style.display = 'none';
     document.getElementById('javascript').style.display = 'none';
-    document.getElementById('matlab').style.display = 'block';
-    document.getElementById('labview').style.display = 'block';
-    document.getElementById('imagej').style.display = 'block';
+    document.getElementById('bash').style.display = 'none';
+    document.getElementById('matlab').style.display = 'none';
+    document.getElementById('labview').style.display = 'none';
+    document.getElementById('imagej').style.display = 'none';
     document.getElementById('latex').style.display = 'none';
-    document.getElementById('word').style.display = 'block';
-    document.getElementById('powerpoint').style.display = 'block';
-
+    document.getElementById('word').style.display = 'none';
+    document.getElementById('powerpoint').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
-    document.getElementById('git').style.display = 'block';
+    document.getElementById('git').style.display = 'none';
 
     document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
@@ -322,6 +342,7 @@ function showWebdev() {
     document.getElementById('scikit-learn').style.display = 'none';
     document.getElementById('jupyter').style.display = 'none';
     document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
     document.getElementById('oracle').style.display = 'none';
     document.getElementById('aws').style.display = 'none';
     document.getElementById('sql').style.display = 'none';
@@ -336,19 +357,107 @@ function showWebdev() {
     document.getElementById('html').style.display = 'block';
     document.getElementById('css').style.display = 'block';
     document.getElementById('javascript').style.display = 'block';
+    document.getElementById('bash').style.display = 'none';
     document.getElementById('matlab').style.display = 'none';
     document.getElementById('labview').style.display = 'none';
     document.getElementById('imagej').style.display = 'none';
     document.getElementById('latex').style.display = 'none';
     document.getElementById('word').style.display = 'none';
     document.getElementById('powerpoint').style.display = 'none';
-
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
     document.getElementById('math').style.display = 'none';
     document.getElementById('stats').style.display = 'none';
     document.getElementById('cs').style.display = 'none';
     document.getElementById('physics').style.display = 'none';
     document.getElementById('algorithms').style.display = 'none';
     document.getElementById('git').style.display = 'block';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+}
+
+function showSoftware() {
+    document.getElementById('numpy').style.display = 'none';
+    document.getElementById('pandas').style.display = 'none';
+    document.getElementById('matplotlib').style.display = 'none';
+    document.getElementById('seaborn').style.display = 'none';
+    document.getElementById('plotly').style.display = 'none';
+    document.getElementById('scikit-learn').style.display = 'none';
+    document.getElementById('jupyter').style.display = 'none';
+    document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
+    document.getElementById('oracle').style.display = 'none';
+    document.getElementById('aws').style.display = 'none';
+    document.getElementById('sql').style.display = 'none';
+    document.getElementById('postgresql').style.display = 'block';
+    document.getElementById('mysql').style.display = 'block';
+    document.getElementById('sqlite').style.display = 'block';
+    document.getElementById('dbeaver').style.display = 'block';
+    document.getElementById('excel').style.display = 'block';
+    document.getElementById('python').style.display = 'none';
+    document.getElementById('django').style.display = 'none';
+    document.getElementById('java').style.display = 'none';
+    document.getElementById('html').style.display = 'none';
+    document.getElementById('css').style.display = 'none';
+    document.getElementById('javascript').style.display = 'none';
+    document.getElementById('bash').style.display = 'none';
+    document.getElementById('matlab').style.display = 'block';
+    document.getElementById('labview').style.display = 'block';
+    document.getElementById('imagej').style.display = 'block';
+    document.getElementById('latex').style.display = 'none';
+    document.getElementById('word').style.display = 'block';
+    document.getElementById('powerpoint').style.display = 'block';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('leadership').style.display = 'none';
+    document.getElementById('math').style.display = 'none';
+    document.getElementById('stats').style.display = 'none';
+    document.getElementById('cs').style.display = 'none';
+    document.getElementById('physics').style.display = 'none';
+    document.getElementById('algorithms').style.display = 'none';
+    document.getElementById('git').style.display = 'block';
+
+    document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+}
+
+function showOther() {
+    document.getElementById('numpy').style.display = 'none';
+    document.getElementById('pandas').style.display = 'none';
+    document.getElementById('matplotlib').style.display = 'none';
+    document.getElementById('seaborn').style.display = 'none';
+    document.getElementById('plotly').style.display = 'none';
+    document.getElementById('scikit-learn').style.display = 'none';
+    document.getElementById('jupyter').style.display = 'none';
+    document.getElementById('modeling').style.display = 'none';
+    document.getElementById('feature-engineering').style.display = 'none';
+    document.getElementById('oracle').style.display = 'none';
+    document.getElementById('aws').style.display = 'none';
+    document.getElementById('sql').style.display = 'none';
+    document.getElementById('postgresql').style.display = 'none';
+    document.getElementById('mysql').style.display = 'none';
+    document.getElementById('sqlite').style.display = 'none';
+    document.getElementById('dbeaver').style.display = 'none';
+    document.getElementById('excel').style.display = 'none';
+    document.getElementById('python').style.display = 'none';
+    document.getElementById('django').style.display = 'none';
+    document.getElementById('java').style.display = 'none';
+    document.getElementById('html').style.display = 'none';
+    document.getElementById('css').style.display = 'none';
+    document.getElementById('javascript').style.display = 'none';
+    document.getElementById('bash').style.display = 'none';
+    document.getElementById('matlab').style.display = 'none';
+    document.getElementById('labview').style.display = 'none';
+    document.getElementById('imagej').style.display = 'none';
+    document.getElementById('latex').style.display = 'none';
+    document.getElementById('word').style.display = 'none';
+    document.getElementById('powerpoint').style.display = 'none';
+    document.getElementById('research').style.display = 'block';
+    document.getElementById('leadership').style.display = 'block';
+    document.getElementById('math').style.display = 'block';
+    document.getElementById('stats').style.display = 'block';
+    document.getElementById('cs').style.display = 'block';
+    document.getElementById('physics').style.display = 'block';
+    document.getElementById('algorithms').style.display = 'block';
+    document.getElementById('git').style.display = 'none';
 
     document.getElementById("skillrows").scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
 }
