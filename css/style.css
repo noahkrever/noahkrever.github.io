@@ -219,7 +219,29 @@ body
 #projects .btn
 {
     background-color: #5680e9;
-
+}
+#projects a:link {
+    color: white;
+  }
+  
+  /* visited link */
+#projects a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+#projects a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+#projects a:active {
+    color: white;
+  }
+.img-proj
+{
+    height: 250px;
+    width: 100%;
 }
 
 .w-responsive
