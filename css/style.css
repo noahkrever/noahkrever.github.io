@@ -959,7 +959,7 @@ li.git:after
 @keyframes aws {
 
     to{
-        width: 50%;
+        width: 70%;
     }
 }
 @keyframes postgresql {
@@ -977,7 +977,7 @@ li.git:after
 @keyframes mysql {
 
     to{
-        width: 65%;
+        width: 90%;
     }
 }
 @keyframes dbeaver {
@@ -1121,6 +1121,6 @@ li.git:after
 @keyframes git {
 
     to{
-        width: 75%;
+        width: 85%;
     }
 }
