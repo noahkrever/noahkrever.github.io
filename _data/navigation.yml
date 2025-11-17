@@ -1,3 +1,5 @@
+navbar_pages: false
+
 - title: "Home"
   url: /
 
@@ -6,7 +8,4 @@
 
 - title: "CV"
   url: /assets/pdf/cv.pdf
-  external: true  # opens in new tab; delete this line if you want same tab
-
-# - title: "Blog"
-#   url: /blog/
+  external: true
