@@ -30,4 +30,4 @@ Hello! I'm currently a researcher at the Columbia University [IEOR Department](h
 
 Previously, I graduated from Columbia University with a B.A. in Data Science (CS + Statistics), and a concentration in Mathematics. During my undergraduate years, I was fortunate to research with the Theoretical High Energy Astrophysics Group [(THEA)](https://thea.astro.columbia.edu/) under [Prof. Zoltan Haiman](https://ista.ac.at/en/research/haiman-group/) studying false periodicities in quasar time-domain surveys.
 
-I am currently applying to PhD programs in Computer Science and Operations Research for Fall 2026. Please see my CV above, and feel free to get in touch about graduate school programs, research and collaboration, or anything at all!
+\textbf{I am currently applying to PhD programs in Computer Science and Operations Research for Fall 2026.} Please see my CV above, and feel free to get in touch about graduate school programs, research and collaboration, or anything at all!
