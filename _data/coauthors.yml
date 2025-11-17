@@ -1,11 +1,11 @@
-"christian":
-  - firstname: ["Christian", "Christian Kroer"]
+"kroer":
+  - firstname: ["Christian"]
     url: https://www.columbia.edu/~ck2945/
 
-"jakub":
-  - firstname: ["Jakub", "Jakub Cerny"]
+"cerny":
+  - firstname: ["Jakub"]
     url: https://www.cernyjakub.com/
 
-"moise":
-  - firstname: ["Moise", "Moise Blanchard"]
+"blanchard":
+  - firstname: ["Moise"]
     url: https://moiseb.github.io/
