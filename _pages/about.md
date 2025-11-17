@@ -6,7 +6,7 @@ subtitle: Researcher and Data Scientist
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: noah_headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ndk2115 [at] columbia.edu</p>
