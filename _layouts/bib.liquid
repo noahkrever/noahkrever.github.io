@@ -185,6 +185,12 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if entry.award_text %}
+      <div class="pub-spotlight">
+        {{ entry.award_text }}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
