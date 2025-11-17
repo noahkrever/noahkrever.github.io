@@ -100,7 +100,7 @@
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
-                  {% if p.title | downcase == 'cv' or p.permalink == '/cv/' or p.url == '/cv/' %}
+                  {% if p.permalink == '/cv/' %}
                     <!-- CV: link directly to the PDF -->
                     <a
                       class="nav-link"
