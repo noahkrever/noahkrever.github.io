@@ -1,0 +1,12 @@
+- title: "Home"
+  url: /
+
+- title: "Publications"
+  url: /publications/
+
+- title: "CV"
+  url: /assets/pdf/cv.pdf
+  external: true  # opens in new tab; delete this line if you want same tab
+
+# - title: "Blog"
+#   url: /blog/
