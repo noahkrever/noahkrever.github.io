@@ -181,7 +181,9 @@
       <div class="periodical">
         {{ periodical | strip }}
         {% if entry.spotlight %}
-          <span class="spotlight-tag"> ({{ entry.spotlight }})</span>
+          <span style="color:#c62828; font-style:italic; font-weight:500;">
+            ({{ entry.spotlight }})
+          </span>
         {% endif %}
       </div>
 
