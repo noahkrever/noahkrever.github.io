@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🌟 I will be attending NeurIPS 2025! Feel free to get in touch if you want to chat.
+🌟 I will be attending [NeurIPS 2025](https://neurips.cc/)! Feel free to get in touch if you want to chat.
