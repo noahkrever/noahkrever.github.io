@@ -25,7 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm currently a researcher at the Columbia University [IEOR Department](https://ieor.columbia.edu/ieor-research), where I'm very fortunate to work with [Prof. Christian Kroer](https://www.columbia.edu/~ck2945/) and [Prof. Lily Xu](https://lily-x.github.io/). I'm also a Data Scientist at [Roc360](https://roc360.com/). My research interests lie at the intersection of machine learning and computational economics, drawing on tools from algorithmic game theory, statistics, and optimization. I am particularly interested in the theoretical foundations of decision-making in strategic and incomplete-information settings, including mechanism design, online learning, social choice, and privacy, as well as their responsible applications in society.
+Hello! I'm currently a researcher at the Columbia University [IEOR Department](https://ieor.columbia.edu/ieor-research), where I'm very fortunate to work with [Prof. Christian Kroer](https://www.columbia.edu/~ck2945/) and [Prof. Lily Xu](https://lily-x.github.io/). I'm also a Data Scientist at [Roc360](https://roc360.com/). 
+
+My research interests lie at the intersection of machine learning and computational economics, drawing on tools from algorithmic game theory, statistics, and optimization. I am particularly interested in the theoretical foundations of decision-making in strategic and incomplete-information settings, including mechanism design, online learning, social choice, and privacy, as well as their responsible applications in society.
 
 Previously, I graduated from Columbia University with a B.A. in Computer Science and Statistics, with a concentration in Mathematics. During my undergraduate years, I was fortunate to research with the Theoretical High Energy Astrophysics Group [(THEA)](https://thea.astro.columbia.edu/) under [Prof. Zoltan Haiman](https://ista.ac.at/en/research/haiman-group/) studying false periodicities in quasar time-domain surveys.
 
