@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher and Data Scientist
+subtitle: Ph.D. Student in Computer Science
 
 profile:
   align: right
