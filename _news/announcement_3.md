@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🦁 I'm officially headed back to Columbia University to begin my Ph.D. in Computer Science this Fall! Go Lions!
+🦁 I'm officially headed back to Columbia University to begin my Ph.D. in Computer Science this Fall!
