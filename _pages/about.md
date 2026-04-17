@@ -32,6 +32,6 @@ Before that, I graduated from Columbia University with a B.A. in Computer Scienc
 
 My research interests lie at the intersection of machine learning and [computational economics](https://en.wikipedia.org/wiki/Computational_economics), drawing on tools from [game theory](https://en.wikipedia.org/wiki/Game_theory), statistics, and optimization. I am particularly interested in the foundations of algorithmic decision-making in strategic and incomplete-information settings, as well as their responsible applications in society. I value bridging theory and practice, and enjoy developing socially-beneficial algorithms for society that are private, truthful, and fair. 
 
-Some domains that commonly produce interesting problems in these areas are [differential privacy](https://en.wikipedia.org/wiki/Differential_privacy), security, biodiversity conservation, [social choice](https://en.wikipedia.org/wiki/Social_choice_theory) and mechanism design, healthcare, and algorithmic trading.
+Some domains that commonly produce interesting problems in these areas are [differential privacy](https://en.wikipedia.org/wiki/Differential_privacy), security, biodiversity conservation, [social choice](https://en.wikipedia.org/wiki/Social_choice_theory) and [mechanism design](https://en.wikipedia.org/wiki/Mechanism_design), healthcare, and algorithmic trading.
 
 Feel free to reach out to chat about research and collaboration, mentoring, or anything at all! You can find my [CV](https://noahkrever.github.io/assets/pdf/cv.pdf) here.
