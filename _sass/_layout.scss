@@ -4,8 +4,11 @@
 
 body {
   padding-bottom: 70px;
-  color: var(--global-text-color);
+  color: var(--global-text-color) !important;
   background-color: var(--global-bg-color);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
   h1,
   h2,
