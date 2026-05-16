@@ -285,12 +285,12 @@ html[data-theme="dark"] .profile .more-info .profile-btn {
   background-color: var(--global-card-bg-color);
   color: #e0e0e0 !important;
   border-color: var(--global-divider-color);
-  box-shadow: 0 4px 18px #{rgba(255, 255, 255, 0.28)};
+  box-shadow: 0 4px 14px #{rgba(255, 255, 255, 0.13)};
 
   &:hover {
     background-color: var(--global-theme-color);
     color: white !important;
-    box-shadow: 0 6px 22px #{rgba(255, 255, 255, 0.38)};
+    box-shadow: 0 6px 20px #{rgba(255, 255, 255, 0.22)};
   }
 }
 
