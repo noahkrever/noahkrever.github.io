@@ -218,6 +218,12 @@ ul.task-list input[type="checkbox"] {
     width: 100% !important;
     border: 1px solid #ffffff !important;
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.22) !important;
+    transition: filter 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+      filter: brightness(1.1);
+      transform: scale(1.03);
+    }
   }
 
   .more-info {
