@@ -19,16 +19,32 @@ _styles: >
     {% include figure.liquid loading="eager" path="assets/img/poker.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Running deep in the 2025 Venetian $1,100 MSPT in Las Vegas" %}
   </div>
   <div class="col-sm-6" markdown="1">
-I've been playing poker seriously for several years, with a focus on [No-Limit Texas Hold'em](https://en.wikipedia.org/wiki/Texas_hold_%27em) cash games. I founded the [Columbia Poker Club](https://www.columbiapoker.club/) as an undergraduate, have spent time as a semi-professional player, and have coached many eager students. What drew me in originally is that poker is fundamentally a game about decision-making under uncertainty. Every decision is a probabalistic bet under various assumptions, which happens to be a framework that maps pretty well onto a lot of problems I think about in my research.
+I've been playing poker seriously for several years, with a focus on [No-Limit Texas Hold'em](https://en.wikipedia.org/wiki/Texas_hold_%27em) cash games. I founded the [Columbia Poker Club](https://www.columbiapoker.club/) as an undergraduate, have been a semi-professional player, and have coached many eager students. You can check out my live tournament results on my [Hendon Mob](https://pokerdb.thehendonmob.com/player.php?a=r&n=1104607) profile. 
+
+What drew me to poker initially is that it is fundamentally a game about decision-making under uncertainty. Every action is a probabalistic bet under various assumptions, and this is a framework that happens to map pretty well onto a lot of problems I think about in my research.
   </div>
 </div>
 
 <div class="row align-items-center mt-1">
   <div class="col-sm-6" markdown="1">
-I play both live and online, and I've spent a lot of time studying game theory optimal [(GTO)](https://upswingpoker.com/glossary/game-theory-optimal-gto/) strategy and solver outputs. I've always been fascinated by superhuman performance in strategy games, and my poker philosophy integrates objective theory with human elements like table dynamics, reads, and opponent-based adjustments. I often think about how and why exploitative strategies may outperform GTO, and this theme of reality deviating from the theoretical has also become a common subject in my research. For coaching, hand-reviews, database analysis, or anything poker-related, feel free to reach out.
+I play both live and online, and I've spent a lot of time studying game theory optimal [(GTO)](https://upswingpoker.com/glossary/game-theory-optimal-gto/) strategy and solver outputs. I've always been fascinated by superhuman performance in strategy games, and my poker philosophy integrates objective theory with human elements like table dynamics, reads, and opponent-based adjustments. I often think about how and why exploitative strategies may outperform GTO, and this theme of reality deviating from the theoretical has also become a common subject in my research. 
+
+For coaching, hand-reviews, database analysis, or anything poker-related, feel free to reach out.
   </div>
   <div class="col-sm-6">
     {% include figure.liquid loading="eager" path="assets/img/pokerhu.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Heads-up (final 2) at the 2022 Collegiate Series of Poker" %}
+  </div>
+</div>
+
+<div class="row align-items-center mt-3">
+  <div class="col-sm-6">
+    {% include figure.liquid loading="eager" path="assets/img/ft.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-sm-6">
+    {% include figure.liquid loading="eager" path="assets/img/winner.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+  <div class="col-12">
+    <div class="caption">Final table of the 2026 \$1,100 Wynn Summer Classic, celebrating a \$25k score</div>
   </div>
 </div>
 
