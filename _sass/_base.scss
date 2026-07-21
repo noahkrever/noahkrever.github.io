@@ -238,6 +238,7 @@ ul.task-list input[type="checkbox"] {
 
     .profile-links {
       display: flex;
+      flex-wrap: wrap; // let buttons wrap instead of squishing when the column is narrow
       justify-content: center;
       gap: 10px;
       margin-top: 14px;
@@ -247,6 +248,7 @@ ul.task-list input[type="checkbox"] {
       display: inline-flex;
       align-items: center;
       justify-content: center;
+      flex: 0 0 38px; // keep a fixed 38px width so buttons stay circular instead of shrinking into ovals
       width: 38px;
       height: 38px;
       border-radius: 50%;
@@ -1031,8 +1033,27 @@ footer.sticky-bottom {
 
     .news-content {
       flex: 1;
+      min-width: 0; // allow the flex item to shrink so long text wraps instead of overflowing
       font-size: 0.9rem;
       color: var(--global-text-color);
+      overflow-wrap: break-word;
+    }
+  }
+
+  // On narrow screens the rigid date column squeezes the content until text
+  // overflows the card. Stack the date above the content and give it full width.
+  @media (max-width: 576px) {
+    .news-card {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 0.85rem 1rem;
+
+      .news-date {
+        min-width: 0;
+        margin-right: 0;
+        margin-bottom: 0.35rem;
+        color: var(--global-text-color-light);
+      }
     }
   }
 }
