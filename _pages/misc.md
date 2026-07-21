@@ -19,9 +19,9 @@ _styles: >
     {% include figure.liquid loading="eager" path="assets/img/poker.png" class="img-fluid rounded z-depth-1" zoomable=true caption="Running deep in the 2025 Venetian $1,100 MSPT in Las Vegas" %}
   </div>
   <div class="col-sm-6" markdown="1">
-I've been playing poker seriously for several years, with a focus on [No-Limit Texas Hold'em](https://en.wikipedia.org/wiki/Texas_hold_%27em) cash games. I founded the [Columbia Poker Club](https://www.columbiapoker.club/) as an undergraduate, have been a semi-professional player, and have coached many eager students. You can check out my live tournament results on my [Hendon Mob](https://pokerdb.thehendonmob.com/player.php?a=r&n=1104607) profile. 
+I've been playing poker seriously for several years, with a focus on [No-Limit Texas Hold'em](https://en.wikipedia.org/wiki/Texas_hold_%27em) cash games. I founded the [Columbia Poker Club](https://www.columbiapoker.club/) as an undergraduate, have been a semi-professional player, and have coached many eager students. While I don't play or study nearly as many tournaments as cash games, you can check out my live [MTT](https://upswingpoker.com/glossary/mtt/) results on my [Hendon Mob](https://pokerdb.thehendonmob.com/player.php?a=r&n=1104607) profile. 
 
-What drew me to poker initially is that it is fundamentally a game about decision-making under uncertainty. Every action is a probabalistic bet under various assumptions, and this is a framework that happens to map pretty well onto a lot of problems I think about in my research.
+Poker is a microcosm of the most fascinating elements of computational, economic, and strategic thinking surrounding the major areas of my research. I'm always excited to analyze and solve problems that deal with decisions and uncertainty; poker is simply an opportunity to enjoy this framework of structured, algorithmic thinking in real life.
   </div>
 </div>
 
@@ -29,7 +29,7 @@ What drew me to poker initially is that it is fundamentally a game about decisio
   <div class="col-sm-6" markdown="1">
 I play both live and online, and I've spent a lot of time studying game theory optimal [(GTO)](https://upswingpoker.com/glossary/game-theory-optimal-gto/) strategy and solver outputs. I've always been fascinated by superhuman performance in strategy games, and my poker philosophy integrates objective theory with human elements like table dynamics, reads, and opponent-based adjustments. I often think about how and why exploitative strategies may outperform GTO, and this theme of reality deviating from the theoretical has also become a common subject in my research. 
 
-For coaching, hand-reviews, database analysis, or anything poker-related, feel free to reach out.
+For coaching, hand-reviews, database analysis, heads-up challenges, or anything poker-related, feel free to reach out.
   </div>
   <div class="col-sm-6">
     {% include figure.liquid loading="eager" path="assets/img/pokerhu.jpg" class="img-fluid rounded z-depth-1" zoomable=true caption="Heads-up (final 2) at the 2022 Collegiate Series of Poker" %}
