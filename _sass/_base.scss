@@ -202,7 +202,10 @@ ul.task-list input[type="checkbox"] {
 @media (max-width: 576px) {
   .about-profile {
     float: none;
-    width: 70%;
+    // Must repeat !important: the desktop `width: 28% !important` above would
+    // otherwise beat this rule even inside the media query, starving the column
+    // until the contact buttons wrap 2/2/1 instead of sitting five in a row.
+    width: 70% !important;
     margin: 0 auto 1.5rem;
     display: block;
   }
@@ -1011,6 +1014,21 @@ footer.sticky-bottom {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+    // Scrollable variant (opt-in via `scrollable: true`). 60vw keys off viewport
+    // width, which is fine on wide screens but far too short on a narrow phone,
+    // so the box collapses into a tiny scroll window and clips the last card.
+    &.scrollable {
+      max-height: 60vw;
+      overflow-y: auto;
+    }
+  }
+
+  // Latest-posts uses a table wrapper rather than .news-list, but has the same
+  // 60vw scroll box that collapses on phones.
+  .table-responsive.scrollable {
+    max-height: 60vw;
+    overflow-y: auto;
   }
 
   .news-card {
@@ -1043,6 +1061,14 @@ footer.sticky-bottom {
   // On narrow screens the rigid date column squeezes the content until text
   // overflows the card. Stack the date above the content and give it full width.
   @media (max-width: 576px) {
+    // Drop the inner scroll window on phones — let all cards stack and the page
+    // scroll naturally instead of squeezing them into a short, clipped box.
+    .news-list.scrollable,
+    .table-responsive.scrollable {
+      max-height: none;
+      overflow-y: visible;
+    }
+
     .news-card {
       flex-direction: column;
       align-items: stretch;

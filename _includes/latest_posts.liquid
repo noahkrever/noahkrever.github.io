@@ -2,10 +2,7 @@
   {% if page.latest_posts != blank %}
     {% assign latest_posts_size = site.posts | size %}
     <div
-      class="table-responsive"
-      {% if page.latest_posts.scrollable and latest_posts_size > 3 %}
-        style="max-height: 60vw"
-      {% endif %}
+      class="table-responsive{% if page.latest_posts.scrollable and latest_posts_size > 3 %} scrollable{% endif %}"
     >
       <table class="table table-sm table-borderless">
         {% assign latest_posts = site.posts %}

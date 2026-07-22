@@ -2,10 +2,7 @@
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
     <div
-      class="news-list"
-      {% if include.limit and page.announcements.scrollable and news_size > 3 %}
-        style="max-height: 60vw; overflow-y: auto;"
-      {% endif %}
+      class="news-list{% if include.limit and page.announcements.scrollable and news_size > 3 %} scrollable{% endif %}"
     >
       {% assign news = site.news | reverse %}
       {% if include.limit and page.announcements.limit %}
