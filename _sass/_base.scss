@@ -1015,11 +1015,12 @@ footer.sticky-bottom {
     flex-direction: column;
     gap: 1rem;
 
-    // Scrollable variant (opt-in via `scrollable: true`). 60vw keys off viewport
-    // width, which is fine on wide screens but far too short on a narrow phone,
-    // so the box collapses into a tiny scroll window and clips the last card.
+    // Scrollable variant (opt-in via `scrollable: true`). A fixed height shows
+    // ~3.5 cards and scrolls the rest, so the box stays a compact "news window"
+    // instead of stretching tall enough to fit every card (which hides the
+    // scroll bar). Disabled below 576px so cards just stack on phones.
     &.scrollable {
-      max-height: 60vw;
+      max-height: 300px;
       overflow-y: auto;
     }
   }
