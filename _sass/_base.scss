@@ -888,6 +888,19 @@ footer.sticky-bottom {
         }
       }
 
+      // On desktop, the preview column already sits inside the card padding.
+      // Removing its stacked bottom margins keeps short entries from making
+      // the entire card taller than the publication details beside them.
+      @media (min-width: 576px) {
+        .abbr {
+          margin-bottom: 0;
+
+          figure {
+            margin-bottom: 0;
+          }
+        }
+      }
+
       .title {
         font-weight: bolder;
       }
