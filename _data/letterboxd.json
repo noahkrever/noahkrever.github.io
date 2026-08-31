@@ -1,0 +1,79 @@
+{
+  "profile_url": "https://letterboxd.com/n2theoah/",
+  "favorites": [
+    {
+      "slug": "cure",
+      "title": "Cure (1997)",
+      "link": "https://letterboxd.com/n2theoah/film/cure/",
+      "poster": "/assets/img/letterboxd/favorites/cure.jpg",
+      "rating": "",
+      "liked": false,
+      "reviewed": false
+    },
+    {
+      "slug": "pulse-2001",
+      "title": "Pulse (2001)",
+      "link": "https://letterboxd.com/n2theoah/film/pulse-2001/",
+      "poster": "/assets/img/letterboxd/favorites/pulse-2001.jpg",
+      "rating": "",
+      "liked": false,
+      "reviewed": false
+    },
+    {
+      "slug": "memories-of-murder",
+      "title": "Memories of Murder (2003)",
+      "link": "https://letterboxd.com/n2theoah/film/memories-of-murder/",
+      "poster": "/assets/img/letterboxd/favorites/memories-of-murder.jpg",
+      "rating": "",
+      "liked": false,
+      "reviewed": false
+    },
+    {
+      "slug": "chungking-express",
+      "title": "Chungking Express (1994)",
+      "link": "https://letterboxd.com/n2theoah/film/chungking-express/",
+      "poster": "/assets/img/letterboxd/favorites/chungking-express.jpg",
+      "rating": "",
+      "liked": false,
+      "reviewed": false
+    }
+  ],
+  "recent": [
+    {
+      "slug": "manhunter",
+      "title": "Manhunter (1986)",
+      "link": "https://letterboxd.com/n2theoah/film/manhunter/",
+      "poster": "/assets/img/letterboxd/recent/manhunter.jpg",
+      "rating": "★★★★★",
+      "liked": true,
+      "reviewed": false
+    },
+    {
+      "slug": "after-hours",
+      "title": "After Hours (1985)",
+      "link": "https://letterboxd.com/n2theoah/film/after-hours/",
+      "poster": "/assets/img/letterboxd/recent/after-hours.jpg",
+      "rating": "★★★★½",
+      "liked": true,
+      "reviewed": true
+    },
+    {
+      "slug": "the-odyssey-2026",
+      "title": "The Odyssey (2026)",
+      "link": "https://letterboxd.com/n2theoah/film/the-odyssey-2026/",
+      "poster": "/assets/img/letterboxd/recent/the-odyssey-2026.jpg",
+      "rating": "★★★★",
+      "liked": true,
+      "reviewed": true
+    },
+    {
+      "slug": "mercy-2026",
+      "title": "Mercy (2026)",
+      "link": "https://letterboxd.com/n2theoah/film/mercy-2026/",
+      "poster": "/assets/img/letterboxd/recent/mercy-2026.jpg",
+      "rating": "★½",
+      "liked": false,
+      "reviewed": true
+    }
+  ]
+}

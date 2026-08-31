@@ -1,0 +1,60 @@
+name: Update Letterboxd widget
+
+on:
+  schedule:
+    # Approximately every 72 hours. Using minute 23 avoids peak scheduler load.
+    - cron: "23 9 */3 * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: update-letterboxd
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Chrome
+        id: setup-chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: stable
+
+      - name: Refresh Letterboxd data
+        env:
+          CHROME_PATH: ${{ steps.setup-chrome.outputs.chrome-path }}
+        run: python3 scripts/update_letterboxd.py
+
+      - name: Commit changes when the profile changed
+        id: commit
+        run: |
+          git add _data/letterboxd.json assets/img/letterboxd
+          if git diff --cached --quiet; then
+            echo "Letterboxd profile is unchanged"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Letterboxd widget"
+          git pull --rebase origin main
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Commits made with GITHUB_TOKEN do not recursively trigger push workflows.
+      - name: Deploy the refreshed widget
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
