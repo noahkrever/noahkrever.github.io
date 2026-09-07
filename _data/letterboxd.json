@@ -40,13 +40,22 @@
   ],
   "recent": [
     {
+      "slug": "the-odyssey-2026",
+      "title": "The Odyssey (2026)",
+      "link": "https://letterboxd.com/n2theoah/film/the-odyssey-2026/1/",
+      "poster": "/assets/img/letterboxd/recent/the-odyssey-2026.jpg",
+      "rating": "★★★★½",
+      "liked": true,
+      "reviewed": true
+    },
+    {
       "slug": "manhunter",
       "title": "Manhunter (1986)",
       "link": "https://letterboxd.com/n2theoah/film/manhunter/",
       "poster": "/assets/img/letterboxd/recent/manhunter.jpg",
       "rating": "★★★★★",
       "liked": true,
-      "reviewed": false
+      "reviewed": true
     },
     {
       "slug": "after-hours",
@@ -64,15 +73,6 @@
       "poster": "/assets/img/letterboxd/recent/the-odyssey-2026.jpg",
       "rating": "★★★★",
       "liked": true,
-      "reviewed": true
-    },
-    {
-      "slug": "mercy-2026",
-      "title": "Mercy (2026)",
-      "link": "https://letterboxd.com/n2theoah/film/mercy-2026/",
-      "poster": "/assets/img/letterboxd/recent/mercy-2026.jpg",
-      "rating": "★½",
-      "liked": false,
       "reviewed": true
     }
   ]
