@@ -40,6 +40,15 @@
   ],
   "recent": [
     {
+      "slug": "your-mother-your-mother-your-mother",
+      "title": "Your Mother Your Mother Your Mother (2026)",
+      "link": "https://letterboxd.com/n2theoah/film/your-mother-your-mother-your-mother/",
+      "poster": "/assets/img/letterboxd/recent/your-mother-your-mother-your-mother.jpg",
+      "rating": "★★★★",
+      "liked": true,
+      "reviewed": true
+    },
+    {
       "slug": "the-odyssey-2026",
       "title": "The Odyssey (2026)",
       "link": "https://letterboxd.com/n2theoah/film/the-odyssey-2026/1/",
@@ -63,15 +72,6 @@
       "link": "https://letterboxd.com/n2theoah/film/after-hours/",
       "poster": "/assets/img/letterboxd/recent/after-hours.jpg",
       "rating": "★★★★½",
-      "liked": true,
-      "reviewed": true
-    },
-    {
-      "slug": "the-odyssey-2026",
-      "title": "The Odyssey (2026)",
-      "link": "https://letterboxd.com/n2theoah/film/the-odyssey-2026/",
-      "poster": "/assets/img/letterboxd/recent/the-odyssey-2026.jpg",
-      "rating": "★★★★",
       "liked": true,
       "reviewed": true
     }
